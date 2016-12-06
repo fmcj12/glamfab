@@ -15,6 +15,45 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.navbar-inverse {
+    background-color:#600; /*Changed the navbar-inverse background color from black to red*/
+}
+.btn {
+    background:#d22d2d; /*Changed the button class background color red*/
+    color:#f2f2f2; /*Changed the font color to button grey*/
+    border: 2px solid #fff;  /*Changed the border color to button white*/
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff; /*Changed the navbar-inverse font color from red to white*/
+}
+
+.navbar-inverse .navbar-nav > li > a:active {
+    background:#f2f2f2;
+    color:#e6e6e6; /*Changed the background color of the box over the HOME button grey*/
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    background:#f2f2f2;
+    color:#600; /*Changed the hover font color red*/
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand img {
+border: 2px solid #fff; 
+}
+
+.Tango {
+    color:#fff; 
+    font-family:'Tangerine',cursive, serif, monospace; 
+    font-size:65px; 
+    font-weight:bolder; 
+    text-shadow: 4px 4px 4px #800;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
@@ -33,6 +72,7 @@ header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
     height: 100%;
+    background-color:#600;
 }
 
 header.carousel .fill {
@@ -40,6 +80,7 @@ header.carousel .fill {
     height: 100%;
     background-position: center;
     background-size: cover;
+    background-color:#600;
 }
 
 /* 404 Page Styles */
