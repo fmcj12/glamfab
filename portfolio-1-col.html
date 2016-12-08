@@ -9,16 +9,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>GlamFAB Production - One Column Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"><!--Added this font-awesome stylesheet link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,8 +34,9 @@
 
 </head>
 
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"><!--Actived the scroll spy-->
 
+   <header>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -42,80 +48,47 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">GlamFab Production</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li class="dropdown active">
+                      <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li class="active">
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
+                            <li  class="active"><a href="portfolio-1-col.html">1 Column Portfolio</a></li>
+                            <li><a href="portfolio-item.html">Single Portfolio Item</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Candy Buffets <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
+                            <li><a href="candy-home-1.html">Candy Buffet 1</a></li>
+                            <li><a href="candy-post.html">Candy Buffet Post</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="404.html">404</a></li>
                         </ul>
-                    </li>
+                     </li>
+                    <li><a href="#"><i class="fa fa-1x fa-facebook"></i></a></li> 
+                   <li><a href="#"><i class="fa fa-1x fa-twitter"></i></a></li> 
+                   <li><a href="#"><i class="fa fa-1x fa-youtube"></i></a></li> 
+                  <li><a href="#"><i class="fa fa-1x fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-1x fa-calendar"></i></a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+ </header>
 
     <!-- Page Content -->
     <div class="container">
@@ -123,13 +96,13 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">One Column Portfolio
-                    <small>Subheading</small>
+                <h1 class="page-header Tango" style="color:#d22d2d;">One Column Portfolio
+                    <small style="color:#e6e6e6;background-color:#600;">Elegant Venues and Centerpieces</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.html" style="color:#600">Home</a>
                     </li>
-                    <li class="active">One Column Portfolio</li>
+                    <li class="active" style="color:#600">One Column Portfolio</li>
                 </ol>
             </div>
         </div>
@@ -139,34 +112,34 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
+            <img src="images/CanBft11.jpg" class="img-responsive img-hover img-rounded" alt="CanBft11" style="width:700px;height:300px">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Project One</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
+                <h3 style="color:#600">Project One</h3>
+                <h4 style="color:#600">Stunning Candy Buffet</h4>
+                <p style="color:#600">Candy buffets are becoming popular at weddings, parties and baby showers. I have showcased a stunning wedding candy bars to inspire you. When planning a candy buffet, do not focus on the quantity of candy needed per guest. Instead, think about how you can make your candy buffet beautiful. To make your wedding candy bar look amazing, start with the table and containers. Candy buffet specialists recommend taking 5 to 10 types of candy and buying 15 or 20 pounds of each. The next step is choosing the candy for the candy bar. Usually, it is the weddings theme or seasons colors that define the candy buffet. For example, if you are having an all white wedding, you will want an all white candy bar. Choose cool containers: different shapes and different heights. If possible, choose candy containers that match the floral vases. Clear containers are the best.</p>
+                <a class="btn btn-success" href="portfolio-item.html">View Project</i></a>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
-
+    
         <!-- Project Two -->
         <div class="row">
             <div class="col-md-7">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
+                    <img class="img-responsive img-hover img-rounded" src="images/Ctrp4.jpg" alt="Ctrp4" width="700" height="300">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Project Two</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
+                <h3 style="color:#600">Project Two</h3>
+                <h4 style="color:#600">Elegant Centerpiece</h4>
+                <p style="color:#600;">Having your wedding centerpiece custom made are in demand. Here is a luxury red wedding flower centerpieces with crystal combined with lovely red fur and elegant red napkins also beautiful red wedding flower centerpieces roses. If you want us to apply the unique and difference wedding flowers centerpiece, we can make wedding flower decoration which is suitable with your wedding theme. Creating our own wedding flowers centerpiece can minimize the wedding budget. Wedding centerpiece usually use the fresh wedding flowers which can be combined with candle or wedding flowers centerpiece with crystal. The wedding table ornament which called centerpieces includes of the flowers, candles or mason jars and other ornaments which can decorate the wedding table for guests. Most of the wedding party, the wedding flowers centerpiece is becomes the favorite choice to decorate the wedding table. Each wedding table is decorated with elegant wedding flowers centerpieces. The wedding flowers centerpieces are also spectacular centerpiece decoration for wedding party.</p>
+                <a class="btn btn-success" href="portfolio-item.html">View Project</i></a>
             </div>
-        </div>
+           </div>
         <!-- /.row -->
 
         <hr>
@@ -175,53 +148,16 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
+                    <img class="img-responsive img-hover img-rounded" src="images/Ven6.png" alt="Venu6" width="700" height="300">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Project Three</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
+                <h3 style="color:#600;">Project Three</h3>
+                <h4 style="color:#600;">Ultimate Party and Wedding Venues</h4>
+                <p style="color:#600;">These elegant wedding venues range from sky-high garden spaces to wedding chapels that are illuminated at night. When planning a dream wedding, modern brides aren't afraid to splurge, especially when it comes to the location of their big day event. In addition to luxe restaurants and elevated gardens, other examples from this list include modern church interiors that are a perfect fit for large ceremonies. Moreover, rustic locations like farmhouses and barns are also a great idea for upscale events with an equestrian or countryside theme. Other favorites from this wedding venues list include Disney resorts that offer a princess-themed royal wedding program along with ice hotels that will result in an unforgettable and Instagram-worthy winter celebration.</p>
                 <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
             </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Four -->
-        <div class="row">
-
-            <div class="col-md-7">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Four</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Five -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x300" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Project Five</h3>
-                <h4>Subheading</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, quo, minima, inventore voluptatum saepe quos nostrum provident ex quisquam hic odio repellendus atque porro distinctio quae id laboriosam facilis dolorum.</p>
-                <a class="btn btn-primary" href="#">View Project</i></a>
-            </div>
-        </div>
+          </div>
         <!-- /.row -->
 
         <hr>
@@ -229,27 +165,27 @@
         <!-- Pagination -->
         <div class="row text-center">
             <div class="col-lg-12">
-                <ul class="pagination">
+                <ul class="pagination" style="color:#600;">
                     <li>
-                        <a href="#">&laquo;</a>
+                        <a href="#" style="color:#600;">&laquo;</a>
                     </li>
                     <li class="active">
-                        <a href="#">1</a>
+                        <a href="#" style="color:#600;">1</a>
                     </li>
                     <li>
-                        <a href="#">2</a>
+                        <a href="#" style="color:#600;">2</a>
                     </li>
                     <li>
-                        <a href="#">3</a>
+                        <a href="#" style="color:#600;">3</a>
                     </li>
                     <li>
-                        <a href="#">4</a>
+                        <a href="#" style="color:#600;">4</a>
                     </li>
                     <li>
-                        <a href="#">5</a>
+                        <a href="#" style="color:#600;">5</a>
                     </li>
                     <li>
-                        <a href="#">&raquo;</a>
+                        <a href="#" style="color:#600;">&raquo;</a>
                     </li>
                 </ul>
             </div>
@@ -259,15 +195,14 @@
         <hr>
 
         <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
+        <footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up" style="color:#600;"></span>
+  </a>
+  <p style="color:#600;">GlamFAB Production by Mollie Jones</p>
+</footer>
+<!-- /.Footer -->
+</div>
     <!-- /.container -->
 
     <!-- jQuery -->
